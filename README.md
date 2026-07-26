@@ -10,4 +10,15 @@ Windows 10 (Helpdesk): Represents a helpdesk environment equipped with tools lik
 Windows 10 (Local User): Simulates a local user for testing tasks such as password resets and troubleshooting.
 
 
-Purpose
+## Purpose
+
+## Purpose
+
+This lab series is designed to:
+
+- Demonstrate hands-on experience with Windows Server, Active Directory, and enterprise IT administration.
+- Apply networking and cybersecurity concepts learned through CompTIA Network+ and Security+ in practical scenarios.
+- Develop real-world troubleshooting skills using industry-standard tools and best practices.
+- Build a professional portfolio that showcases my technical abilities and continuous learning in IT.
+
+
