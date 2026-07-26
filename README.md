@@ -12,8 +12,6 @@ Windows 10 (Local User): Simulates a local user for testing tasks such as passwo
 
 ## Purpose
 
-## Purpose
-
 This lab series is designed to:
 
 - Demonstrate hands-on experience with Windows Server, Active Directory, and enterprise IT administration.
