@@ -23,7 +23,7 @@ Now that the Windows Server 2022 virtual machine has been deployed, we can begin
 
 <img width="1042" height="796" alt="3" src="https://github.com/user-attachments/assets/f6697de7-b0b6-4984-af25-93c70e12d97b" />
 
-4. Changed the server name to SuccessCompanyServer
+4. Rename the server to SuccessCompanyServer. Using a meaningful hostname makes servers easier to identify and manage in enterprise environments
    
    <img width="1296" height="778" alt="4" src="https://github.com/user-attachments/assets/997524d9-86d4-498d-baf2-ad34221d4a8b" />
 
@@ -85,7 +85,7 @@ Now that the Windows Server 2022 virtual machine has been deployed, we can begin
 
 <img width="1046" height="780" alt="20" src="https://github.com/user-attachments/assets/be41a5f4-8e52-469a-a12c-4dff9e30168b" />
 
-21. On the DNS options page , select Create DNS delegation then click on next
+21. On the DNS Options page, leave the default settings. Since this is the first domain controller in a new forest, the DNS delegation warning can be safely ignored. Click Next to continue.
 
 
 <img width="1050" height="782" alt="21" src="https://github.com/user-attachments/assets/d72d2a71-f2b1-4941-a9fb-b7bfb67f3684" />
@@ -110,8 +110,18 @@ Now that the Windows Server 2022 virtual machine has been deployed, we can begin
 <img width="1054" height="858" alt="25" src="https://github.com/user-attachments/assets/70ce0c78-c4a3-4854-8af0-5432acc03957" />
 
 
+## Key Takeaways
 
+In this lab, I successfully prepared a Windows Server 2022 virtual machine for enterprise deployment by renaming the server, optimizing performance, installing the Active Directory Domain Services role, and promoting the server to a domain controller. I also created the SuccessCompany.com forest, which serves as the foundation for all upcoming labs involving user management, Group Policy, DNS, DHCP, and enterprise Help Desk administration.
 
+## Skills Demonstrated
+
+- Windows Server Administration
+- Active Directory Deployment
+- Domain Controller Configuration
+- DNS Configuration
+- Virtualization
+- System Administration
 
 
 
