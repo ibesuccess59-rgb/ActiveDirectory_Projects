@@ -102,18 +102,18 @@ In this documentation, I will outline the initial steps of setting up my Active 
 
 <img width="1220" height="1624" alt="22" src="https://github.com/user-attachments/assets/b104d913-4c96-4f4d-a93a-871a5473bb80" />
 
-## Key Takeaways
+## Conclusion
 
 In this lab, I successfully set up the virtualization environment that will be used throughout my Active Directory Home Lab series. I learned how to install Oracle VirtualBox, download and deploy Windows Server 2022, configure virtual machine hardware settings, and complete the Windows Server installation process. This lab provided the foundation required for building an enterprise-style Windows Server environment and prepared me for the next phase of the project, where I will configure Active Directory Domain Services (AD DS) and promote the server to a Domain Controller.
 
-Skills Demonstrated
-Oracle VirtualBox Installation
-Windows Server 2022 Installation
-Virtual Machine Configuration
-Virtual Hardware Management (CPU, RAM, Storage)
-ISO Deployment
-Windows Server Administration Fundamentals
-Technical Documentation
+## Skills Demonstrated
+-   Oracle VirtualBox Installation
+-   Windows Server 2022 Installation
+-   Virtual Machine Configuration
+-   Virtual Hardware Management (CPU, RAM, Storage)
+-   ISO Deployment
+-   Windows Server Administration Fundamentals
+-   Technical Documentation
 
 
 
