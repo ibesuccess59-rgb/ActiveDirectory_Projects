@@ -19,6 +19,11 @@ This lab series is designed to:
 - Develop real-world troubleshooting skills using industry-standard tools and best practices.
 - Build a professional portfolio that showcases my technical abilities and continuous learning in IT.
 
-- 
+## Lab Topics
+
+- This project is organized into a series of hands-on labs, each designed to focus on specific objectives, tools, and workflows that simulate real-world IT support and system administration scenarios. The labs are listed below in the order they were completed:
+
+
+
 
 
