@@ -65,6 +65,50 @@ Now that the Windows Server 2022 virtual machine has been deployed, we can begin
 15. Select "Active Directory Domain Services," then click "Add Features" when prompted. After that, click "Next" to continue.
     <img width="1046" height="780" alt="15" src="https://github.com/user-attachments/assets/6b356cb3-fded-4c9a-a191-63800eec5579" />
 
+16.   Click on next
+
+<img width="1038" height="798" alt="16" src="https://github.com/user-attachments/assets/5b95543b-5f22-44bc-b23c-e238f68fe862" />
+
+17. Click on Install
+
+<img width="1066" height="810" alt="17" src="https://github.com/user-attachments/assets/fb66cb7f-b21d-449a-8396-92b7bf231f44" />
+
+18. On the next page click on promote to domain controller
+
+<img width="1048" height="774" alt="18" src="https://github.com/user-attachments/assets/d6afbe74-0c22-4a44-904a-0ca9bc6975a1" />
+
+19. Now we  put the dc name , successcompany.com
+
+<img width="1030" height="768" alt="19" src="https://github.com/user-attachments/assets/30117a19-b094-41db-91d5-19d0b8413e46" />
+
+20. Next put a password for the server and click on next
+
+<img width="1046" height="780" alt="20" src="https://github.com/user-attachments/assets/be41a5f4-8e52-469a-a12c-4dff9e30168b" />
+
+21. On the DNS options page , select Create DNS delegation then click on next
+
+
+<img width="1050" height="782" alt="21" src="https://github.com/user-attachments/assets/d72d2a71-f2b1-4941-a9fb-b7bfb67f3684" />
+
+22. On this page we confirm our domain controller's name successcompany
+
+
+<img width="1050" height="776" alt="22" src="https://github.com/user-attachments/assets/7bfeed18-a701-4027-9b43-7e2eece40995" />
+
+23. On the Prerequisite check page , click on install
+
+
+<img width="1046" height="776" alt="23" src="https://github.com/user-attachments/assets/4f8492a1-87d7-4f68-9c88-d57c68c325d0" />
+
+24. After the Installation is complete , Restart the server . When the starter has restarted, To verify if we successfully created the successcompany.com domain controller ,  open server manager, then click on active directory users and computers
+
+
+<img width="1064" height="800" alt="24" src="https://github.com/user-attachments/assets/6e4f6137-4f64-45d1-9a47-0f601718350e" />
+
+25. As shown in the image , successcompany.com has successfully been created!
+
+<img width="1054" height="858" alt="25" src="https://github.com/user-attachments/assets/70ce0c78-c4a3-4854-8af0-5432acc03957" />
+
 
 
 
