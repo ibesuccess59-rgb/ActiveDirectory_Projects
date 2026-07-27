@@ -23,6 +23,9 @@ This lab series is designed to:
 
 - This project is organized into a series of hands-on labs, each designed to focus on specific objectives, tools, and workflows that simulate real-world IT support and system administration scenarios. The labs are listed below in the order they were completed:
 
+1.  [Installing VirtualBox and Server 2022]
+
+
 
 
 
