@@ -27,6 +27,8 @@ Lab 01.  Installing VirtualBox and Server 2022
 
 Lab 02.  Renaming Windows Server 2022 and Installing Active Directory
 
+Lab 03.  Creating a Help Desk Account in Active Directory Using CMD
+
 
 
 
