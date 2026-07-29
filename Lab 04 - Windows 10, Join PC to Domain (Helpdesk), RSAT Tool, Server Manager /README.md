@@ -66,7 +66,7 @@ In this lab, I created a Windows 10 virtual machine and configured it with a loc
 <img width="1148" height="838" alt="image" src="https://github.com/user-attachments/assets/4ac36cb1-7b55-4be1-ae43-89ec141cc61c" />
 <br />
 
-11. <img width="1134" height="764" alt="image" src="https://github.com/user-attachments/assets/d1044a96-aeb3-4471-a5a8-81c954891efc" />
+11. <br /> <img width="1134" height="764" alt="image" src="https://github.com/user-attachments/assets/d1044a96-aeb3-4471-a5a8-81c954891efc" />   <br />
 
 <br />
 12. Enter "User" as the name, skip the password creation, and click Next.
