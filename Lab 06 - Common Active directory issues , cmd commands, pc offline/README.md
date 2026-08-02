@@ -30,9 +30,14 @@ Simulate a failed login
 
 3.  Open the Organizational Unit (OU) containing the Gozi user account, right-click Gozi, select Properties, and then open the Account tab to view and manage the user's account settings.
 
-
 4.  From the screenshot you can see that the account has been locked out due to a wrong password being put in multiple times , now on the accout tab , select unlock account , select apply, select OK.
 
-5.  
+5.  Next step is to reset the password , Right-click the **Gozi** user account and select **Reset Password**. Enter and confirm a temporary password, select **User must change password at next logon** if required, and then click **OK** to apply the new password.
 
+6. Now we test the login , return to pc02, Sign in using successcompany\Gozi, enter the correct or temporary password , confirm that the login is successful
 
+7
+
+8
+
+9
