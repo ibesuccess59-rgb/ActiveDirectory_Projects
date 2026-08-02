@@ -36,8 +36,10 @@ Simulate a failed login
 
 6. Now we test the login , return to pc02, Sign in using successcompany\Gozi, enter the correct or temporary password , confirm that the login is successful
 
-7
+7. A confirmation message appears stating that the password for Gozi has been changed. Click OK to close the message.
 
-8
+8. Return to PC02, select the Gozi account, and enter the temporary password. Windows displays a message stating that the user’s password must be changed before signing in. Click OK.
 
-9
+9. Enter the temporary password in the first field, enter a new password in the second field, confirm the new password in the third field, and press Enter or select the arrow.
+
+10. Windows displays a message stating that the password has been changed. Click OK and confirm that Gozi can successfully sign in to PC02.
