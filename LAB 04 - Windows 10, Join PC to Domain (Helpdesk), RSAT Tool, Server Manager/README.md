@@ -22,7 +22,7 @@ In this lab, I deployed and configured a Windows 10 virtual machine to serve as 
 <br />
 <br />
 
-3. Next, open your VirtualBox application and create a new virtual machine. Click **Machine** in the top-left corner, then select **New**.
+3. Next, open your VirtualBox application and create a new virtual machine. Click **Machine** in the top-left corner, then select **New**
 
 <br />
 
