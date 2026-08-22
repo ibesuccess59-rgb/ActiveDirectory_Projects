@@ -1,4 +1,4 @@
-## LAB 5
+## LAB 5 - Join Windows 10 to Domain (Local User), Group Policy, RSOP Reports
 
 In this home lab, we expand our Active Directory environment by deploying a second Windows 10 virtual machine (PC02) to simulate an employee workstation. This allows us to perform realistic Help Desk and System Administration tasks in a multi-client environment, including creating Organizational Units (OUs), managing Active Directory users, configuring and enforcing Group Policy Objects (GPOs), and joining a workstation to the SuccessCompany.com domain.
 
