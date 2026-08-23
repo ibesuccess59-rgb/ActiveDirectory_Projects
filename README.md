@@ -24,6 +24,7 @@ This lab series is designed to:
 - This project is organized into a series of hands-on labs, each designed to focus on specific objectives, tools, and workflows that simulate real-world IT support and system administration scenarios. The labs are listed below in the order they were completed:
 
 Lab 01.  Installing VirtualBox and Server 2022
+https://github.com/ibesuccess59-rgb/IT-SystemAdministration-Projects/tree/main/Lab%2001-Active%20Directory%20User%20Administration
 
 Lab 02.  Renaming Windows Server 2022 and Installing Active Directory
 
