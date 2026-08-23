@@ -180,16 +180,251 @@ Open File Explorer.
 Enter: \\Successcompanys\it . Confirm the folder opens.
 <img width="1370" height="972" alt="31" src="https://github.com/user-attachments/assets/39fd227c-6577-4e6b-86c6-c79312c1c0a7" />
 
+32. Now we Test file permissions
+Inside the IT folder:
+Right-click an empty area.
+Select New.
+Select Text Document. Name the file:
+IT-Test-Bob.txt
+<img width="1336" height="1002" alt="32" src="https://github.com/user-attachments/assets/ab09502d-9bd5-4d25-b871-cfc74cf9b1fc" />
 
+33.  Open the file.
+Type a short sentence.
+<img width="1300" height="956" alt="33" src="https://github.com/user-attachments/assets/e71cc148-9866-476c-b337-42299725214b" />
 
+34. Rename the file to IT-TextExam-Bob.txt
+<img width="1344" height="954" alt="34" src="https://github.com/user-attachments/assets/62e8f7b3-6110-4fa8-b3eb-7cc13ebdf309" />
 
+35. Delete the file. This confirms that Bob has Modify access.
+<img width="1346" height="996" alt="35" src="https://github.com/user-attachments/assets/866797d9-c076-4967-b629-ad5ae3b12902" />
 
+36. Now Map the IT shared folder to a network drive on a domain-joined computer, allowing authorized users to access shared departmental resources through a drive letter while verifying that the assigned permissions function correctly.
+<img width="1356" height="1004" alt="36" src="https://github.com/user-attachments/assets/9af595c3-d19f-4617-a20d-a811f4c0fb86" />
 
+37. Configure the mapped drive
+Under Drive, select:
+I:
+Under Folder, enter:
+\\Successcompanys\it
+<img width="1340" height="972" alt="37" src="https://github.com/user-attachments/assets/687fb5c8-a504-4098-8a2a-ccfc25c76f39" />
 
+38. Confirm the mapped drive
+Open This PC.
+Confirm that the following drive appears:
+IT (\\Successcompanys) (I:)
+<img width="1370" height="1000" alt="38" src="https://github.com/user-attachments/assets/ba69455d-ea27-459c-8ee3-a63bacf713d0" />
 
+39. Double-click the I: drive.
+Now can Create another test file.
+<img width="1334" height="988" alt="39" src="https://github.com/user-attachments/assets/b4c90850-eda4-4a1b-8197-85eef2903f62" />
 
+40. and as well Edit and delete the file.
+<img width="1372" height="976" alt="40" src="https://github.com/user-attachments/assets/1719247d-69d2-49e5-b5de-5993bcfacf9d" />
 
+41. Now lets Automatically Map the IT Drive Using Group Policy
+Automatically map the HR drive for users who belong to the HR security group.
+Before testing this scenario, remove the manually mapped I: drive to prevent a conflict.
+Remove the manually mapped drive
+On PC02:
+Open This PC.
+Right-click the I: drive.
+Select Disconnect.
+<img width="1358" height="1016" alt="41" src="https://github.com/user-attachments/assets/ff5d9a38-9198-402d-8ab7-859cc18e4d47" />
 
+42. Open Server Manager.
+Select Tools.
+Select Group Policy Management.
+Expand:
+Forest: SuccessCompany.com
+Domains
+SuccessCompany.com
+<img width="1368" height="1558" alt="42" src="https://github.com/user-attachments/assets/6e1a7a45-c58a-4378-b453-6e64faa0cc23" />
+
+43.  Right-click the IT OU.
+Select Create a GPO in this domain, and Link it here.
+Enter:
+IT Mapped Drive Policy
+Select OK.
+<img width="1366" height="1478" alt="43" src="https://github.com/user-attachments/assets/e281f1a9-d771-4e9b-9247-3d96d4ca4116" />
+
+44. screenshot showing the GPO linked to the IT Admin OU.
+<img width="1362" height="1186" alt="44" src="https://github.com/user-attachments/assets/0dc2a352-af61-4f2a-8518-9cdf4fee3836" />
+
+45. Open the Drive Maps section
+Right-click IT Mapped Drive Policy.
+Select Edit.
+Navigate to:
+User Configuration
+Preferences
+Windows Settings
+Drive Maps
+<img width="1352" height="1378" alt="45" src="https://github.com/user-attachments/assets/23501d9d-38a3-4246-803b-614a88d72737" />
+
+46. Create the mapped drive preference
+Right-click Drive Maps.
+Select New.
+Select Mapped Drive.
+Under Action, select: Update
+In Location, enter:
+\\Successcompanys\IT
+In Label as, enter: IT Admin Department Drive
+Under Drive Letter, select:
+Use I:
+Check: Reconnect
+Click apply and okay
+<img width="1372" height="1562" alt="46" src="https://github.com/user-attachments/assets/61ae94f1-a75f-42b0-8f76-da49e31fe18f" />
+
+47. Configure item-level targeting
+Open the Common tab.
+Check:
+Item-level targeting
+<img width="1368" height="1352" alt="47" src="https://github.com/user-attachments/assets/422d1923-0188-475a-ba9d-8f8d8c5fd701" />
+
+48. Select Targeting.
+Select New Item.
+Select Security Group.
+Under Group, select the browse button.
+Enter: IT
+Select Check Names.
+Select OK.
+<img width="1362" height="1524" alt="48" src="https://github.com/user-attachments/assets/58a6cd60-24c5-4b6d-a31e-aee5e16b950c" />
+
+49. screenshots showing:
+The mapped drive settings
+The I: drive letter
+The IT security group in item-level targeting
+<img width="2190" height="1072" alt="49" src="https://github.com/user-attachments/assets/e4337560-a023-4c9b-a184-e8cbe31afafe" />
+
+50. On PC02, sign in as Bob.
+Open Command Prompt and run:
+gpupdate /force
+
+When the update completes
+Sign out.
+Sign back in as Bob.
+Open This PC.
+Confirm that I: appears automatically.
+<img width="1362" height="1008" alt="50" src="https://github.com/user-attachments/assets/fba74087-8893-44ed-a62f-f39a57a2ee61" />
+
+51. <img width="1368" height="988" alt="51" src="https://github.com/user-attachments/assets/03f46e51-18e3-4f65-a380-793c11943a87" />
+
+52. Create the Personal Drives Root Folder
+Objective
+Create a central location where each domain user receives a private personal folder.
+A Personal Drive (also called a Home Drive) is a private network folder assigned to an individual user. It provides each user with their own secure storage location on a file server. Create the Personal folder
+
+On DC01:
+Open: C:\Shares
+
+Create a new folder named:
+Personal
+<img width="1380" height="1634" alt="52" src="https://github.com/user-attachments/assets/089616fd-474c-470e-acdd-9bcd34160549" />
+
+53. Right-click the Personal folder.
+Select Properties.
+Open the Sharing tab.
+Select Advanced Sharing.
+Check Share this folder.
+Confirm the share name is:
+Personal
+<img width="1310" height="1658" alt="53" src="https://github.com/user-attachments/assets/e010f434-6672-4c39-9cb4-270df6b2b88c" />
+
+54. Select Permissions.
+Configure share permissions
+Remove Everyone.
+<img width="1364" height="1526" alt="54" src="https://github.com/user-attachments/assets/2d847bfb-3ef9-495f-8b1c-9cf13869e9f6" />
+
+55.   Select Add.
+Add : Personal-Drive-Users
+<img width="1364" height="1414" alt="55" src="https://github.com/user-attachments/assets/ddc1f09c-9fb2-4ddc-b456-9ec1cf5da9c6" />
+
+56. Allow:
+Change
+Read
+<img width="1366" height="1348" alt="56" src="https://github.com/user-attachments/assets/2b378d09-6d0c-4603-97d3-784938a832e5" />
+
+57. Add HelpDesk01
+Allow:
+Change
+Read
+Select Apply.
+Select OK. Note the network path is  \\Successcompanys\Personal
+<img width="1032" height="1232" alt="57" src="https://github.com/user-attachments/assets/23b34c75-6edd-42e3-b406-64661fee4c5f" />
+
+58. Configure advanced NTFS permissions
+Open the Security tab.
+Select Advanced.
+Select Disable inheritance.
+<img width="1380" height="1332" alt="58" src="https://github.com/user-attachments/assets/a6a910d7-b5d0-4e1e-a18f-a8ba19c7e551" />
+
+59. Select: Convert inherited permissions into explicit permissions
+ Keep:
+SYSTEM
+Administrators
+Domain Admins, if listed
+<img width="1376" height="1432" alt="59" src="https://github.com/user-attachments/assets/120018b9-a9c5-46cd-8d8a-84ddd2d70836" />
+
+60. Remove standard entries that would allow all users to access every personal folder.
+<img width="1349" height="1442" alt="60" src="https://github.com/user-attachments/assets/6d4ef1f1-3c5c-4eab-aa70-2df1609ad623" />
+
+61. Add Personal-Drive-Users permissions
+Select Add.
+Select Select a principal.
+Enter:
+Personal-Drive-Users
+Select Check Names.
+Select OK.
+<img width="1360" height="1424" alt="61" src="https://github.com/user-attachments/assets/ee452b0c-57b8-4d6e-b97e-46135cc08b2d" />
+
+62. Under Applies to, select : This folder only
+<img width="1366" height="1048" alt="62" src="https://github.com/user-attachments/assets/a865cb7c-a897-41be-9701-a03eb2592b8a" />
+
+63. Select Show advanced permissions if needed.
+Allow:
+List folder/read data
+Read attributes
+Read extended attributes
+Create folders/append data
+Read permissions
+Select OK.
+This allows users to access the root and create their personal folder without allowing them to open another user’s folder.
+<img width="1411" height="1322" alt="63" src="https://github.com/user-attachments/assets/3dd557dd-8fbd-413b-94e8-213cb36de4d8" />
+
+64.  Add CREATOR OWNER
+Allow:
+Full Control
+<img width="1228" height="1412" alt="64" src="https://github.com/user-attachments/assets/85c46409-9476-4134-b6f5-77075e7359bc" />
+
+65. Add Help Desk access
+Select Add.
+Select Select a principal.
+Enter HelpDesk01
+Select Check Names.
+Select OK.
+Allow Modify.
+Under Applies to, select:
+This folder, subfolders and files
+Select OK.
+Select Apply.
+Select OK.
+<img width="1202" height="1482" alt="65" src="https://github.com/user-attachments/assets/2092c1d2-0d85-43fa-ac11-39da66d497db" />
+
+66. Configure Helpdesk’s Personal Home Drive
+Objective
+Assign Gozi a personal folder that automatically maps as I: when Gozi signs in.
+On DC01:
+Open Active Directory Users and Computers.
+Find Helpdesk.
+Right-click Helpdesk.
+Select Properties.
+Open the Profile tab.
+<img width="1372" height="1348" alt="66" src="https://github.com/user-attachments/assets/74a44730-d90f-4ba9-b68b-b52f18fa0289" />
+
+67. Sign in to PC02 as Helpdesk01.
+Confirm that I: appears under This PC.
+Create a personal test file.
+Confirm that the file is stored on DC01.
+<img width="1380" height="882" alt="67" src="https://github.com/user-attachments/assets/cb242bdc-4b94-43cf-837f-ae201953455b" />
 
 
 
