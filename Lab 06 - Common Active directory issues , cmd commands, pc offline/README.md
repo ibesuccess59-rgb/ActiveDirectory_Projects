@@ -36,7 +36,7 @@ In this scenario, the domain user Gozi cannot sign in to PC02 because the accoun
 
 ![Step 4](https://github.com/user-attachments/assets/711bc068-f9cd-479f-b496-b4e2d7ad4fac)
 
-**5.** Next step is to reset the password, Right-click the **Gozi** user account and select **Reset Password**. Enter and confirm a temporary password, select **User must change password at next logon** if required, and then click **OK** to apply the new password.
+**5.** Next step is to reset the password, Right-click the **Gozi** user account and select **Reset Password**. Enter and confirm a temporary password, we would select **User must change password at next logon** , and then click **OK** to apply the new password.
 
 ![Step 5a](https://github.com/user-attachments/assets/1f17907e-51ae-4cb1-86ab-f5108ef5cc5d)
 
