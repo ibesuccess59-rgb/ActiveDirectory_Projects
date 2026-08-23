@@ -13,6 +13,7 @@ Windows 10 (Local User): Simulates a local user for testing tasks such as passwo
 ## Lab Topics
 
 Lab 01.  Installing VirtualBox and Server 2022
+https://github.com/ibesuccess59-rgb/IT-SystemAdministration-Projects/tree/main/Lab%2001-Active%20Directory%20User%20Administration
 
 Lab 02.  Renaming Windows Server 2022 and Installing Active Directory
 
