@@ -10,18 +10,7 @@ Windows 10 (Helpdesk): Represents a helpdesk environment equipped with tools lik
 Windows 10 (Local User): Simulates a local user for testing tasks such as password resets and troubleshooting.
 
 
-## Purpose
-
-This lab series is designed to:
-
-- Demonstrate hands-on experience with Windows Server, Active Directory, and enterprise IT administration.
-- Apply networking and cybersecurity concepts learned through CompTIA Network+ and Security+ in practical scenarios.
-- Develop real-world troubleshooting skills using industry-standard tools and best practices.
-- Build a professional portfolio that showcases my technical abilities and continuous learning in IT.
-
 ## Lab Topics
-
-- This project is organized into a series of hands-on labs, each designed to focus on specific objectives, tools, and workflows that simulate real-world IT support and system administration scenarios. The labs are listed below in the order they were completed:
 
 Lab 01.  Installing VirtualBox and Server 2022
 
