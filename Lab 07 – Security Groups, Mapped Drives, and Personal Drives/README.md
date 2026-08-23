@@ -92,6 +92,97 @@ then click on ok
 Select OK.
 <img width="1366" height="1658" alt="14" src="https://github.com/user-attachments/assets/afd587c8-e28d-4cb9-9931-f7a398787e49" />
 
+15. Create the 	IT folder
+On DC01:
+Open File Explorer.
+Open This PC.
+Open the C: drive.
+Create a folder named: Shares
+<img width="1366" height="1660" alt="15" src="https://github.com/user-attachments/assets/a7ced78d-742b-4da5-8322-02c1cd9256d0" />
+
+16. Open the Shares folder. Create another folder named: IT
+<img width="1362" height="1668" alt="16" src="https://github.com/user-attachments/assets/6287f5ba-54de-4061-9351-2be1a3f7a4ef" />
+
+17. Right-click the IT folder.
+Select Properties.
+Open the Sharing tab.
+Select Advanced Sharing.
+Check Share this folder.
+Confirm the share name is : IT
+<img width="1360" height="1681" alt="17" src="https://github.com/user-attachments/assets/7b8e3b6a-3c4f-43a6-8c3d-27f995cf8875" />
+
+18. Select Permissions, Configure share permissions
+<img width="1366" height="1600" alt="18" src="https://github.com/user-attachments/assets/0d2e2484-4599-4954-891e-82407f495577" />
+
+19. Remove Everyone if it is listed.
+Select Add.
+Enter:IT , Select OK
+<img width="1366" height="1654" alt="19" src="https://github.com/user-attachments/assets/748cdfaa-ff6e-4cdc-bac2-244a32467837" />
+
+20. Select the IT group , Under permission Allow : Change , Read
+<img width="1364" height="1670" alt="20" src="https://github.com/user-attachments/assets/f51759f3-4fcb-435c-8323-6532d9cfc34c" />
+
+21. Select Add again.
+Add HelpDesk01
+<img width="1242" height="1636" alt="21" src="https://github.com/user-attachments/assets/72711ca3-e99a-4b42-b72d-96b88995acd5" />
+
+22. Under permission Allow: Change , Read. Select Apply.
+Select OK.
+Select OK again.
+<img width="1256" height="1600" alt="22" src="https://github.com/user-attachments/assets/01aa48c1-7121-4839-93c8-50f8b1c90ac8" />
+
+23. Network path is \\Successcompanys\it
+<img width="1030" height="1502" alt="23" src="https://github.com/user-attachments/assets/b154970e-19d5-44c4-a0aa-426000438b4c" />
+
+24. Now we Configure NTFS permissions ,In the IT folder properties, open the Security tab.
+Select Advanced.
+Select Disable inheritance.
+<img width="1366" height="1626" alt="24" src="https://github.com/user-attachments/assets/f600e350-c694-4d9a-9ae9-cd1929d93a7e" />
+
+25. Select: Convert inherited permissions into explicit permissions on this object
+<img width="1376" height="1202" alt="25" src="https://github.com/user-attachments/assets/8a9c12a6-e00f-42dd-befc-8b02f3bd6d0a" />
+
+26. Remove unnecessary standard user entries, such as:
+Users
+Authenticated Users
+<img width="1370" height="1216" alt="26" src="https://github.com/user-attachments/assets/99178fce-9d30-47b2-aaf7-ee6e8a20b3b1" />
+
+27. Select Add.
+Select Select a principal.
+Enter: IT , Check Names ,  Select OK.
+<img width="1364" height="1592" alt="27" src="https://github.com/user-attachments/assets/4b367d25-1fc2-4d3c-99b1-550cab44845d" />
+
+28.  Under Basic permissions, allow:
+Modify
+Read and execute
+List folder contents
+Read
+Write , select OK
+<img width="1370" height="1586" alt="28" src="https://github.com/user-attachments/assets/cce8896d-404d-484a-b34d-9daef9fc0dff" />
+
+29. Add HelpDesk01 permissions
+Select Add.
+Select Select a principal.
+Enter:
+HelpDesk01
+<img width="1372" height="1234" alt="29" src="https://github.com/user-attachments/assets/56be4d60-8900-4e20-b0ef-f7b99406a628" />
+
+30. Allow Modify.
+Select OK.
+Select Apply.
+Select OK.
+<img width="1376" height="1406" alt="30" src="https://github.com/user-attachments/assets/b8b468d9-5239-496d-9a48-6af300d39e1a" />
+
+31. Test the UNC path
+On PC02:
+Sign in as Bob.
+Open File Explorer.
+Enter: \\Successcompanys\it . Confirm the folder opens.
+<img width="1370" height="972" alt="31" src="https://github.com/user-attachments/assets/39fd227c-6577-4e6b-86c6-c79312c1c0a7" />
+
+
+
+
 
 
 
