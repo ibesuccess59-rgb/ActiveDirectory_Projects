@@ -19,6 +19,9 @@ Lab 02.  Renaming Windows Server 2022 and Installing Active Directory
 
 Lab 03.  Creating a Help Desk Account in Active Directory Using CMD
 
+Lab 09. Windows server backup and active directory disaster recovery
+https://github.com/ibesuccess59-rgb/IT-SystemAdministration-Projects/tree/main/Lab-09-Windows-Server-Backup-%26_Active-directory-disaster-recovery
+
 
 
 
