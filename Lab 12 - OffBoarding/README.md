@@ -50,6 +50,6 @@ Confirm Bob appears there.
 <img width="1370" height="1682" alt="7" src="https://github.com/user-attachments/assets/20be37e1-d14c-47b8-8f60-1a710184a6cd" />
 
 8.  On DC.
-On DC01, confirm BobMarley is disabled:
+On DC01, confirm BobMarley is disabled with powershell :
 Get-ADUser BobMarley -Properties Enabled
 <img width="1376" height="1324" alt="8" src="https://github.com/user-attachments/assets/ae505bbe-0c26-48e7-9616-a6f5df7294f4" />
