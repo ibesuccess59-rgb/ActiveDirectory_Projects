@@ -6,6 +6,7 @@
 - Set up Personal Drives to give individual users secure storage within the domain.
 - Apply security group-based permissions and access control best practices to simplify administration and improve resource security.
 
+## Steps
 1. Open Server Manager.
 Select Tools in the upper-right corner.
 Select Active Directory Users and Computers.
