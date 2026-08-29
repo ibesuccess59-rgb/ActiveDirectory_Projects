@@ -5,7 +5,7 @@
 - Configure Group Policy: Create and apply Group Policy Objects (GPOs) to enforce administrative settings across domain-joined systems.
 - Manage Task Manager: Configure Group Policy to control user access to Task Manager for security and administrative purposes.
 - Disable the Log Off Option: Implement a Group Policy setting to remove or disable the Log Off option on domain-joined computers.
-- Troubleshoot Group Policy: Use tools such as RSOP, gpupdate, and gpresult to verify policy application and diagnose Group Policy issues.
+- Troubleshoot Group Policy: Use tools such as RSOP, gpupdate, and gpresult to verify policy application and diagnose Group Policy issues
 
 ## Steps
 1. To do this, open Server Manager on your Windows Server 2022 account. Then, select Tools and click on Group Policy Management. In the Group Policy Management console, select Group Policy Objects under the SimoTech.com domain. From here, we can configure the Group Policy to disable Task Manager.
