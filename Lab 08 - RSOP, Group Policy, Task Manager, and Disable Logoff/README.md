@@ -1,12 +1,13 @@
-Lab 08 - RSOP, Group Policy, Task Manager, and Disable Logoff
+## Lab 08 - RSOP, Group Policy, Task Manager, and Disable Logoff
 
-Objectives
+## Objectives
 - Generate RSOP Reports: Use Resultant Set of Policy (RSOP) to verify and analyze the effective Group Policy settings applied to domain users and computers.
 - Configure Group Policy: Create and apply Group Policy Objects (GPOs) to enforce administrative settings across domain-joined systems.
 - Manage Task Manager: Configure Group Policy to control user access to Task Manager for security and administrative purposes.
 - Disable the Log Off Option: Implement a Group Policy setting to remove or disable the Log Off option on domain-joined computers.
 - Troubleshoot Group Policy: Use tools such as RSOP, gpupdate, and gpresult to verify policy application and diagnose Group Policy issues.
 
+## Steps
 1. To do this, open Server Manager on your Windows Server 2022 account. Then, select Tools and click on Group Policy Management. In the Group Policy Management console, select Group Policy Objects under the SimoTech.com domain. From here, we can configure the Group Policy to disable Task Manager.
 <img width="1644" height="1646" alt="1" src="https://github.com/user-attachments/assets/a1022332-7178-40da-856d-f659ae19be7e" />
 
