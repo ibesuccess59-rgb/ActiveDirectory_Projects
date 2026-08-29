@@ -8,6 +8,7 @@ Objective
 - Restore the deleted user.
 - Verify the restored account works.
 
+## Steps
 1. On DC01, open:
 Server Manager → Manage → Add Roles and Features , Click Next until you reach:
 Features , Check: Windows Server Backup
