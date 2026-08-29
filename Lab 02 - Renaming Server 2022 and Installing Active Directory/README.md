@@ -6,7 +6,7 @@ Now that the Windows Server 2022 virtual machine has been deployed, we can begin
 ## Objectives
 -  Rename a Windows Server 2022 instance to meet organizational standards.
 -  Install and configure Active Directory Domain Services (AD DS).
--  Create and manage user accounts, groups, and security policies within Active Directory.
+-  Create and manage user accounts, groups, and security policies within Active Directory
 
 
 ## Steps
