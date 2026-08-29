@@ -1,6 +1,6 @@
 ## Lab 12 – Employee Offboarding & Access Revocation
 
-Objectives
+## Objectives
 
 - Disable a departing employee’s Active Directory account to prevent further login.
 - Reset the user’s password as an additional access-control measure.
@@ -10,6 +10,7 @@ Objectives
 - Verify account status using PowerShell and Get-ADUser.
 - Demonstrate a basic employee offboarding and access-revocation workflow used in enterprise environments.
 
+## Steps 
 1. On DC01, open Active Directory Users and Computers.
    Find Gozi inside HR/ .Double-click Bob
 <img width="1372" height="1540" alt="1" src="https://github.com/user-attachments/assets/633c70d5-6a36-481a-8d8b-d8a3c5aaf330" />
