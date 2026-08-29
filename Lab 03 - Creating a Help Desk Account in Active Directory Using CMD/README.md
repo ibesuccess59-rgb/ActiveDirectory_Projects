@@ -12,8 +12,7 @@ By the end of this lab, I will be able to:
 * Perform common Help Desk administrative tasks.
 
 
-## Documentation
-
+## Steps
 1.  Before creating the Help Desk account, enable the Active Directory Recycle Bin. This feature allows administrators to restore accidentally deleted Active Directory objects, such as users, groups, and organizational units, without performing an authoritative restore from backup.
 
 This matters because one can Accidentally deleting a user account is a common administrative mistake. The Recycle Bin allows Help Desk and system administrators to recover deleted objects quickly while preserving their attributes, group memberships, and permissions.
