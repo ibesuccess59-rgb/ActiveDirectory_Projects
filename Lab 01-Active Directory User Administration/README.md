@@ -34,7 +34,7 @@ In this documentation, I will outline the initial steps of setting up my Active 
 
 <img width="1424" height="1686" alt="6" src="https://github.com/user-attachments/assets/560acc40-ba1a-426f-b614-209653fca7b1" />
 
-7. Once all the required files have been downloaded and installed, launch Oracle VirtualBox to begin configuring the virtual environment for Windows Server 2022. From the VirtualBox menu, click Machine and select New to create a new virtual machine.
+7. Once all the required files have been downloaded and installed, launch Oracle VirtualBox to begin configuring the virtual environment for Windows Server 2022. From the VirtualBox menu, click Machine and select New to create a new virtual machine
 
 <img width="1424" height="1686" alt="6" src="https://github.com/user-attachments/assets/2a0ee66c-3752-441f-92cf-e68fa486a913" />
 
