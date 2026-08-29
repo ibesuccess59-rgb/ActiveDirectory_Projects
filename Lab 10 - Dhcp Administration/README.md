@@ -6,6 +6,8 @@
 - Configure exclusions.
 - Configure DHCP options.
 
+## Steps
+
 1. Open Server Manager, Click Manage → Add Roles and Features, Click Next until you reach Server Roles. Check:DHCP Server
 <img width="1380" height="1210" alt="1" src="https://github.com/user-attachments/assets/e6017643-0b6f-4c1f-9e73-55c4a70e2154" />
 
