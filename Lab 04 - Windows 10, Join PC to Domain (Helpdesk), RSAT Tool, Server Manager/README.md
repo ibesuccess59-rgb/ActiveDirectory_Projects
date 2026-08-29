@@ -5,7 +5,7 @@
 In this lab, I deployed and configured a Windows 10 virtual machine to serve as the Help Desk workstation for my **SuccessCompany.com** Active Directory home lab. The project covers installing Windows 10, configuring static IP addresses, optimizing the virtual machine, migrating the environment from VirtualBox to VMware Workstation, installing the Remote Server Administration Tools (RSAT), and joining the workstation to the Active Directory domain. By completing this lab, I established a fully functional domain-joined client capable of performing everyday Help Desk and system administration tasks in an enterprise environment.
 
 
-## Documentation
+## Steps
 1. The process begins with downloading the Windows 10 Installation Media Tool from the official Microsoft website: Windows 10 Installation Media Tool.
 
 <br />
