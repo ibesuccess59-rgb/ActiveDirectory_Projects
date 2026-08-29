@@ -1,4 +1,6 @@
-Objectives:
+## Lab 11 - DNS Administration and Name Resolution
+
+## Objectives:
 
 - Configure Forward and Reverse Lookup Zones.
 - Create and manage DNS A records and CNAME aliases.
@@ -8,6 +10,7 @@ Objectives:
 - Verify that clients can resolve hostnames and aliases to the correct IP addresses.
 - Demonstrate basic DNS administration used in an Active Directory domain environment.
 
+## Steps
 1. Open Server Manager.
 Click Tools → DNS.
 Expand DC01.
