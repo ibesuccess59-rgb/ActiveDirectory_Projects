@@ -9,7 +9,7 @@ By the end of this lab, I will be able to:
 * Create a Help Desk security group.
 * Delegate password reset permissions.
 * Verify Active Directory objects using Command Prompt.
-* Perform common Help Desk administrative tasks.
+* Perform common Help Desk administrative tasks
 
 
 ## Steps
