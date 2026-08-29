@@ -9,7 +9,7 @@ Now that the Windows Server 2022 virtual machine has been deployed, we can begin
 -  Create and manage user accounts, groups, and security policies within Active Directory.
 
 
-## Documentation
+## Steps
 1.  With Windows Server 2022 successfully installed, we can now begin configuring the server for our Active Directory home lab. Before installing the Active Directory Domain Services (AD DS) role, we'll rename the computer to a more descriptive hostname. To do this, open File Explorer, right-click This PC, and select Properties.
 
 <img width="1056" height="812" alt="1" src="https://github.com/user-attachments/assets/407c4d01-f25c-4b57-9d27-227cb00b2008" />
