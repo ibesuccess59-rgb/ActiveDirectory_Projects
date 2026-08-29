@@ -14,10 +14,6 @@ In this lab, I simulated and resolved common issues encountered in an Active Dir
 
 ---
 
-## Scenario 1 – Troubleshooting Login Problems and Account Lockouts
-
-In this scenario, the domain user Gozi cannot sign in to PC02 because the account is locked, disabled, expired, or using an incorrect password.
-
 ### Simulate a failed login
 
 **1.** Start PC02, Select other user on the windows sign in screen, Enter "Successcompany/Gozi", Enter an incorrect password several times, continue until windows displays an account lockout or login failure
