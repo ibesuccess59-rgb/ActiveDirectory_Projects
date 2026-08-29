@@ -6,7 +6,7 @@
 - Use Performance Monitor to monitor CPU, memory, disk, and network usage.
 - Monitor critical Windows services.
 
-## Documentation
+## Steps
 
 1. Investigate Event Viewer
 
