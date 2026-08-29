@@ -1,7 +1,7 @@
 # ActiveDirectory_Projects
 This repository showcases practical IT Help Desk and System Administration projects using Windows Server, Active Directory, and Windows 10. The labs apply real-world networking, security, and troubleshooting concepts learned through CompTIA Network+ and Security+
 
-## Lab Topics
+## 📂 Project Labs
 
 [Lab 01.  Installing VirtualBox and Server 2022](https://github.com/ibesuccess59-rgb/ActiveDirectory_Projects/tree/e2004845d783a682d0dc9a1f7a2fcc00b055f2cb/Lab%2001-Active%20Directory%20User%20Administration)
 
