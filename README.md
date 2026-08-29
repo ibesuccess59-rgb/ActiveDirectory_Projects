@@ -1,4 +1,4 @@
-# ActiveDirectory-Projects
+# ActiveDirectory_Projects
 This repository showcases practical IT Help Desk and System Administration projects using Windows Server, Active Directory, and Windows 10. The labs apply real-world networking, security, and troubleshooting concepts learned through CompTIA Network+ and Security+.
 
 Using VirtualBox and Vmware workstation as the virtualization platform, I’ve created a networked configuration of three virtual machines:
