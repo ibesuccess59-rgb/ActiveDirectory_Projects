@@ -9,7 +9,7 @@ This repository documents a comprehensive home lab project focused on installing
 - Installing and configuring Windows Server 2022 in a virtualized environment.
 - Creating a foundation for further experiments involving Active Directory, system administration, and IT operations.
 
-## Documentation
+## Steps
 
 In this documentation, I will outline the initial steps of setting up my Active Directory home lab. This includes downloading and preparing the essential tools: VirtualBox and Windows Server 2022.
 
