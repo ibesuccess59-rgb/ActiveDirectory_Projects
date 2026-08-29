@@ -20,7 +20,7 @@ Select Windows 10 Pro, then click Next → Custom: Install Windows only → Next
 
 ![Step 2](https://github.com/user-attachments/assets/2164a6cd-d798-4302-bf71-2a8bddd0b575)
 
-**3.** Continue with the same configurations as before for the Windows 10 Helpdesk account. Select Personal Use, then enter User for the name and put a password that can be remembered for this project
+**3.** Continue with the same configurations as before for the Windows 10 Helpdesk account. Select Personal Use, then enter User for the name and put a password that can be remembered for this project.
 
 ![Step 3](https://github.com/user-attachments/assets/2835c9ef-979a-40a7-a55a-9c81bb05ec37)
 
