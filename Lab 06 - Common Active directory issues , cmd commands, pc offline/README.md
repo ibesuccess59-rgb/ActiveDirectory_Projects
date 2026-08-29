@@ -10,7 +10,7 @@ In this lab, I simulated and resolved common issues encountered in an Active Dir
 - Use Command Prompt (CMD) tools to diagnose domain connectivity, DNS resolution, authentication, and network issues.
 - Troubleshoot and restore communication with domain-joined computers that are offline or unable to contact the domain controller.
 - Verify and troubleshoot Group Policy application using built-in Windows tools.
-- Develop practical troubleshooting skills commonly used in Help Desk, Desktop Support, and System Administration roles.
+- Develop practical troubleshooting skills commonly used in Help Desk, Desktop Support, and System Administration roles
 
 ---
 
