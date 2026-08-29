@@ -1,14 +1,5 @@
 # ActiveDirectory_Projects
-This repository showcases practical IT Help Desk and System Administration projects using Windows Server, Active Directory, and Windows 10. The labs apply real-world networking, security, and troubleshooting concepts learned through CompTIA Network+ and Security+.
-
-Using VirtualBox and Vmware workstation as the virtualization platform, I’ve created a networked configuration of three virtual machines:
-
-Windows Server 2022: Serves as the domain controller and the system administrator's primary workstation.
-
-Windows 10 (Helpdesk): Represents a helpdesk environment equipped with tools like RSAT for Active Directory management.
-
-Windows 10 (Local User): Simulates a local user for testing tasks such as password resets and troubleshooting.
-
+This repository showcases practical IT Help Desk and System Administration projects using Windows Server, Active Directory, and Windows 10. The labs apply real-world networking, security, and troubleshooting concepts learned through CompTIA Network+ and Security+
 
 ## Lab Topics
 
@@ -39,7 +30,15 @@ Windows 10 (Local User): Simulates a local user for testing tasks such as passwo
 [Lab 13. Windows Server Monitoring](https://github.com/ibesuccess59-rgb/ActiveDirectory_Projects/tree/e2004845d783a682d0dc9a1f7a2fcc00b055f2cb/Lab%2013%20%E2%80%93%20Windows%20Server%20Monitoring%20%26%20Event%20Log%20Troubleshooting%20%20Overview)
 
 
+##  Tools & Technologies
 
+- **Systems:** Windows Server 2022, Windows 10
+- **Virtualization:** VMware Workstation Pro
+- **Administration:** Active Directory, Group Policy, RSAT
+- **Networking:** DNS, DHCP, TCP/IP
+- **Security:** NTFS Permissions, Security Groups, Microsoft Defender
+- **Automation:** PowerShell, Command Prompt
+- **Remote Administration:** RDP, Remote Management
 
 
 
