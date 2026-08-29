@@ -195,7 +195,8 @@ Preferred DNS: 192.168.10.10
 
 <br />
 
-<img width="970" height="732" alt="21" src="https://github.com/user-attachments/assets/86576808-f4d5-45b6-a315-2a19cf2af5ab" />
+<img width="1002" height="760" alt="21" src="https://github.com/user-attachments/assets/40fa56d7-739a-4771-b382-aceeae89e1a8" />
+
 
 <br />
 <br />
@@ -204,7 +205,7 @@ Preferred DNS: 192.168.10.10
 
 <br />
 
-<img width="986" height="750" alt="22" src="https://github.com/user-attachments/assets/8f0c0a79-8b90-4b93-90dc-cf6a23f6d722" />
+<img width="1024" height="738" alt="22" src="https://github.com/user-attachments/assets/7c555069-7ffa-4a35-ab8a-5b98de1c69bf" />
 
 <br />
 <br />
@@ -213,7 +214,8 @@ Preferred DNS: 192.168.10.10
 
 <br />
 
-<img width="1006" height="1290" alt="23" src="https://github.com/user-attachments/assets/0a6b0df4-3b13-46b4-a2c7-5c0a639c68f0" />
+<img width="1058" height="844" alt="23" src="https://github.com/user-attachments/assets/cbb98eec-62f7-4bfe-9df6-c00f55dee392" />
+
 
 <br />
 <br />
@@ -222,7 +224,7 @@ Preferred DNS: 192.168.10.10
 
 <br />
 
-<img width="1008" height="1284" alt="24" src="https://github.com/user-attachments/assets/0bcfbf93-a813-4af6-bd42-b4b442d1a04d" />
+<img width="1024" height="764" alt="24" src="https://github.com/user-attachments/assets/4391ec96-9a6d-4870-8433-e9509196a130" />
 
 <br />
 <br />
@@ -237,7 +239,7 @@ Confirm that the static IP address, subnet mask, and DNS settings have been conf
 
 <br />
 
-<img width="1002" height="624" alt="25" src="https://github.com/user-attachments/assets/98d1cb90-5316-49b1-b958-715d08dc7678" />
+<img width="994" height="536" alt="25" src="https://github.com/user-attachments/assets/3b8d51c5-ceeb-4fec-afdb-c0408b880d67" />
 
 <br />
 <br />
@@ -252,7 +254,8 @@ Verify that the Windows 10 client is using the correct static IP address, subnet
 
 <br />
 
-<img width="1008" height="536" alt="26" src="https://github.com/user-attachments/assets/cb1fbd77-6de1-474c-a714-1ef6dae14c2d" />
+<img width="1164" height="668" alt="26" src="https://github.com/user-attachments/assets/46c09ad2-b463-47a1-bc87-65159ef3008e" />
+
 
 <br />
 
